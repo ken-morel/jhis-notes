@@ -1,3 +1,5 @@
 # Summary
 
-- [Chapter 1](./chapter_1.md)
+- [Preparatory classes](./preparatory/index.md)
+  - [Word](./preparatory/word.md)
+  - [Power point](./preparatory/powerpoint.md)
