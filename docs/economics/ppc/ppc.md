@@ -36,7 +36,6 @@ plt = plot(0:48:288, 216:-36:0; xlabel="Cakes", ylabel="Bread", label="PPC")
 ![Plot](./ppc-bread-cakes-1.svg)
 
 ## Points on the PPC
-
 - **Points on the PPC**: All points on the PPC are efficient, the PPC line or
   curve represens the best and maximum ammount of product which can be made all
   resources used to their full.
@@ -94,5 +93,4 @@ Calculate the oportunity cost from increasing consumer goods from
 ```julia
 julia> O_C =  (90 - 60) / (10 - 25)
 -2.0
-
 ```

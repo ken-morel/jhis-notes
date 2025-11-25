@@ -44,6 +44,13 @@ and need, ...) and implemented fairly.
 > Good governance is the transparent, accountable and efficient management of a
 > government, organization or other institution's resources and members.
 
+### Disadvantages
+
+- Increase in reliance in technology exposes to cybersecurity risks
+- Requires reliable technological infrastructure
+- AI/Datascience may require the government training jobs requiring such
+  specifications.
+
 ### Principles of good governance
 
 - **Parcitipation**: Everyone should participate, directly or inderectly.
@@ -107,5 +114,6 @@ and need, ...) and implemented fairly.
 
 - **CONAN**: Institution to fight corruption
 - **The national agency for financial investigation**
+
 
 
