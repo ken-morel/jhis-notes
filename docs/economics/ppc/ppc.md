@@ -1,7 +1,6 @@
 # The PPC(Production Possibility Curve)
 
 > **Opportunity cost** is the next best opportunity forgone.
-
 The PPC is a line/curve which shows the different possible combinations of two
 products which can be prduced by a single firm/nation using all of it's
 available resources at a static technology and point in time.
@@ -42,7 +41,7 @@ plt = plot(0:48:288, 216:-36:0; xlabel="Cakes", ylabel="Bread", label="PPC")
 - **Points in the curve**: The represent inefficient production due to idle
   resources, we can still improve on the production of both goods using
   available resources.
-- **Points utside the PPC**: The PPC represents already the maximum, which
+- **Points outside the PPC**: The PPC represents already the maximum, which
   is the limit of production, going above this line is _impossible_ to acheive
   since our resources used to the fullest make us arrive to the PPC.
   Factors pushing PPC outwards include:
@@ -80,12 +79,12 @@ O_C = decrease_in_consumer_good / increase_in_capital
 ### Example
 
 | Possible condition | Capital good | Comsumer good|
-|:-:|:-:|:-:|
-|A|0|100|
-|B|10|90|
-|C|25|60|
-|D|35|25|
-|E|100|0|
+|:------------------:|:------------:|:------------:|
+|          A         |      0       |      100     |
+|          B         |      10      |      90      |
+|          C         |      25      |      60      |
+|          D         |      35      |      25      |
+|          E         |      100     |      0       |
 
 Calculate the oportunity cost from increasing consumer goods from
 10 to 25 units.
