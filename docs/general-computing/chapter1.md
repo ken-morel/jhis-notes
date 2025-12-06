@@ -17,8 +17,3 @@ performant at them, examples:
 - **Entreperise software**: Processes data flow within organisations, e.g
   Sage Saari. and banana.
   amd ama
-
-  akdfhao
-
-  wwhfoie
- 

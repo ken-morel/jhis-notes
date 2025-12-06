@@ -57,5 +57,4 @@ Go from a general point of view to a perticular point of view.
 
 Example:
 
-
 - General:  **whoever cheats** _will be killed_

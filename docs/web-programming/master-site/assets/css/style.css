@@ -1,0 +1,33 @@
+body {
+  background-color: #a27e96;
+}
+
+#logo {
+  width: 50px;
+}
+
+#nav {
+  background-color: pink;
+  float: right;
+  width: 100%;
+}
+
+.list {
+  display: inline;
+  margin: 20px;
+  float: right;
+}
+
+.list-logo {
+  display: inline;
+  float: left;
+}
+
+.main {
+  background-image: url('../images/scissors-seven.jpg');
+  height: 500px;
+  width: 100%;
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+}

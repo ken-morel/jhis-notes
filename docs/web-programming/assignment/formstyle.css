@@ -1,0 +1,30 @@
+@import "style.css";
+
+input,
+select,
+option {
+  background-color: var(--primary);
+}
+
+form input {
+  border: 1px solid #000a;
+  border-radius: 2px;
+  background-color: var(--primary);
+}
+
+form>label>input[type=radio] {
+  background-color: var(--primary);
+  color: var(--primary);
+}
+
+form>label {
+  display: block;
+  margin: 10px;
+}
+
+form>label[for=address]>textarea {
+  display: block;
+  width: 100%;
+  background-color: var(--primary);
+  border-radius: 2px;
+}

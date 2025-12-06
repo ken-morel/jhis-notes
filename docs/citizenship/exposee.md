@@ -112,8 +112,5 @@ and need, ...) and implemented fairly.
 > unit on the financial statements of institutions like banks.
  *ama* **ama* ama
 
-- **CONAN**: Institution to fight corruption
+- **CONAC**: Institution to fight corruption
 - **The national agency for financial investigation**
-
-
-
