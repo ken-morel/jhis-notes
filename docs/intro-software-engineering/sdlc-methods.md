@@ -16,7 +16,7 @@ model.
 
 - **Clear structure**: When you finish a step, you get to the other.
 - **Error detection**: Easily detect possible errors
-- **Easy to manage**
+- **Easy to manage**:
 - **More accurate goals**: Allows you to determine the overall project goals.
 - **Reduce dev issues**: Reduces development issues.
 
