@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Registration form</title>
+  <link rel="stylesheet" href="formstyle.css" />
+</head>
+
+<body>
+  <h1>Registration form</h1>
+  <form>
+    <label for="lastname">
+      Lastname: <input type="text" id="lastname" name="lastname" />
+    </label>
+    <label for="course">
+      Course: <select id="course" name="course">
+        <option value="swe">Software Engineering</option>
+        <option value="edm">Digital marketing</option>
+      </select>
+    </label>
+    <label for="gender">
+      Gender:<br />
+      <input type="radio" name="gender" value="male" /> Male<br />
+      <input type="radio" name="gender" value="female" /> Female<br />
+      <input type="radio" name="gender" value="other" /> Other
+    </label>
+    <label for="phone">
+      Phone:
+      <select name="phonecode">
+        <option value="91">+91</option>
+        <option value="237">+237</option>
+        <option value="06">+06</option>
+        <option value="1">+1</option>
+      </select>
+      <input type="number" name="phone" id="phone" />
+    </label>
+
+    <label for="address">
+      Addresse
+      <textarea rows="5" cols="50" name="address" id="address"></textarea>
+    </label>
+
+    <label for="email">
+      Email: <input type="email" id="email" name="email" />
+    </label>
+
+    <label for="password">
+      Password: <input type="password" id="password" name="password" />
+    </label>
+    <label for="passwordConfirm">
+      Re-password: <input type="password" id="passwordConfirm" name="passwordConfirm" />
+    </label>
+    <input type="submit" id="submit" />
+  </form>
+  <script>
+    const form = {
+      password: document.querySelector("input#password"),
+      passwordConfirm: document.querySelector("input#passwordConfirm"),
+      submit: document.querySelector("input#submit")
+    };
+    function passwordsOkay() {
+      const pass = [form.password.value, form.passwordConfirm.value]
+      if (pass[0] == '') return false;
+      return pass[0] == pass[1];
+    }
+    function checkPasswords() {
+      form.submit.disabled = !passwordsOkay();
+    }
+    const changeCallback = () => checkPasswords();
+
+    form.password.addEventListener('input', changeCallback);
+    form.passwordConfirm.addEventListener('input', changeCallback);
+    document.addEventListener("DOMContentLoaded", changeCallback);
+  </script>
+
+</body>
+
+</html>
